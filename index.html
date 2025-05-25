@@ -1,15 +1,53 @@
-<html>
-<body style="background-color:gray">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hoş Geldiniz!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
 
-<center>
-  <h1 style="color:blue">
-    Kubernetes Example 
-  <p>
-    This is the V1
-  </p>
-  </h1>
-</center>
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
 
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+    }
 
+    .box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>🌐 Kubernetes'e Hoş Geldiniz!</h1>
+    <p>Bu basit HTML sayfası, Kubernetes ortamında başarıyla çalışan bir servisi temsil etmektedir.</p>
+  </div>
+  <footer>Hazırlayan: ChatGPT | 2025</footer>
 </body>
 </html>
